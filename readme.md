@@ -71,4 +71,13 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 # staradmin
+
+larravel環境作って
+
+localhost:8000/admin
+で管理画面
+localhost:8000/content
+でJSON形式データをGETできる。
+
+# staradmin
 # staradmin

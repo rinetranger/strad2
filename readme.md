@@ -78,6 +78,8 @@ localhost:8000/admin
 で管理画面
 localhost:8000/content
 でJSON形式データをGETできる。
+画像については、localhost:8000/storage/image/{filename}
+で取得可能
 
 # staradmin
 # staradmin

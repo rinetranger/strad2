@@ -49,7 +49,7 @@ class ContentsController extends Controller
     public function show($id)
     {
        $item=Content::find($id);
-       return $item->toArray();
+       return  json_encode($item,JSON_UNESCAPED_UNICODE);
     }
 
     /**

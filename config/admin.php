@@ -11,7 +11,7 @@ return [
     | login page.
     |
     */
-    'name' => 'Laravel-admin',
+    'name' => '星川建設管理画面',
 
     /*
     |--------------------------------------------------------------------------
@@ -22,7 +22,7 @@ return [
     | `img` tag, eg '<img src="http://logo-url" alt="Admin logo">'.
     |
     */
-    'logo' => '<b>Laravel</b> admin',
+    'logo' => '<b>星川建設</b> admin',
 
     /*
     |--------------------------------------------------------------------------
@@ -34,7 +34,7 @@ return [
     | '<img src="http://logo-url" alt="Admin logo">'.
     |
     */
-    'logo-mini' => '<b>La</b>',
+    'logo-mini' => '<b>★</b>',
 
     /*
     |--------------------------------------------------------------------------
@@ -157,8 +157,8 @@ return [
 
         // Image and file upload path under the disk above.
         'directory' => [
-            'image' => 'images',
-            'file'  => 'files',
+            'image' => 'image',
+            'file'  => 'file',
         ],
     ],
 
@@ -395,6 +395,17 @@ return [
     |
     */
     'extensions' => [
+        'material-ui' => [
+            // If the value is set to false, this extension will be disabled
+            'enable' => true
+        ],
+        'media-manager' => [
+
+            // Select a local disk that you configured in `config/filesystem.php`
+            'disk' => 'public'
+        ],
+
+
 
     ],
 ];

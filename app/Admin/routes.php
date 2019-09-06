@@ -2,6 +2,7 @@
 
 use Illuminate\Routing\Router;
 
+
 Admin::routes();
 
 Route::group([
@@ -18,7 +19,7 @@ Route::group([
 
 Route::get('image/{filename}', function ($filename)
 {
-    $path = storage_path() . '/app/image/' . $filename;
+    $path = storage_path() . '/image' . $filename;
 
     if(!File::exists($path)) abort(404);
 

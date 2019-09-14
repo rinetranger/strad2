@@ -19,7 +19,7 @@ Route::group([
 
 Route::get('image/{filename}', function ($filename)
 {
-    $path = storage_path() . '/image' . $filename;
+    $path = storage_path() . 'app/public/image/' . $filename;
 
     if(!File::exists($path)) abort(404);
 

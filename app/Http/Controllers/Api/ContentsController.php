@@ -16,7 +16,7 @@ class ContentsController extends Controller
     public function index()
     {
             $items=Content::all();
-            return json_encode($items,JSON_UNESCAPED_UNICODE);
+            return json_encode($items, JSON_UNESCAPED_UNICODE);
     }
 
     /**
